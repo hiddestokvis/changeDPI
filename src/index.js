@@ -1,3 +1,6 @@
+const atob = require('atob');
+const btoa = require('btoa');
+
 function createPngDataTable() {
   /* Table of CRCs of all 8-bit messages. */
   const crcTable = new Int32Array(256);
